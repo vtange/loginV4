@@ -2,7 +2,9 @@
   "name": "passports",
   "version": "1.0.0",
   "description": "passport with social media",
-  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+   },
   "dependencies" : {
     "express" : "~4.0.0",           
     "ejs" : "~0.8.5",               
